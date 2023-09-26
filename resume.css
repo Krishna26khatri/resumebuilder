@@ -1,0 +1,23 @@
+.container{
+   
+    height: 100vh;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: blue;
+}
+.eml{
+    color: black;
+}

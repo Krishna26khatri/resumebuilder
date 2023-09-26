@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row{
+    width: 100vw;
+}
+.nav{
+  
+   padding-left: 18px;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 15px;
+  
+}
+.nav-link,.bi{
+    display: inline;
+}
+.nav .col-3{
+    padding-left: 100px;
+}
+.side{
+ 
+    text-align: right;
+    padding-right: 40px;
+}
+.para .row{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+margin-top: 150px;
+    color: black;
+    text-align: center;
+   font-family:  cursive;
+}
+.para .button{
+    height: 10vh;
+    margin-top: 5px;
+}
+ .para .row p{  
+    font-weight: bold;
+    display: block;
+} 
+
+button{
+    
+    background-color:#1a91f0;
+    border: 1px solid #1a91f0;
+    color: white;
+    height: 50px;
+    font-family: 'poppins';
+    font-size: 15px;
+    border-radius: 4px;
+   
+    font-weight: 600;
+    padding:10px;
+    
+    display: inline-block;
+}
+.button a{
+    color: white;
+}
+ button:hover{
+    cursor: pointer;
+  
+    background-color: transparent;
+    color: var(--clr-dark);
+    border-color: var(--clr-grey);
+    text-decoration: none;
+   
+    
+}
+button:hover a{
+   
+  
+    background-color: transparent;
+    color: var(--clr-dark);
+    border-color: var(--clr-grey);
+    text-decoration: none;
+   
+    
+}
+/* button a:hover{
+    background-color: transparent;
+    color: var(--clr-dark);
+    border-color: var(--clr-grey);
+    color: black;
+    text-decoration: none;
+} */
